@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Thêm sinh viên"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/edt_MaSV1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Mã sinh viên"/>
+    <EditText
+        android:id="@+id/edt_HoTen1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Họ tên"/>
+    <EditText
+        android:id="@+id/edt_Lop1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Lớp"/>
+    <EditText
+        android:id="@+id/edt_Diem1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Điểm"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/btn_huyThem"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:text="Hủy"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/btn_huyThem"
+            android:text="Thêm"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

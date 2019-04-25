@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Sửa Thông tin"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/edt_MaSV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Mã sinh viên"
+        android:textSize="23dp"/>
+    <EditText
+        android:id="@+id/edt_HoTen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Họ tên"
+        android:textSize="23dp"/>
+    <EditText
+        android:id="@+id/edt_Lop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Lớp"
+        android:textSize="23dp"/>
+    <EditText
+        android:id="@+id/edt_Diem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Điểm"
+        android:textSize="23dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/btn_huyEdit"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:text="Hủy"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btn_capNhatEdit"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/btn_huyEdit"
+            android:text="Cập nhật"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

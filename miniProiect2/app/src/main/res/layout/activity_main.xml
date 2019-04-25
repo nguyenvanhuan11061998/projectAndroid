@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ln_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:background="#03A9F4"
+            android:id="@+id/btn_TinTuc"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:text="Tin Tức"
+            android:layout_weight="1"/>
+        <Button
+            android:background="#03A9F4"
+            android:text="Đã Lưu"
+            android:id="@+id/btn_DaLuu"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+        <Button
+            android:background="#03A9F4"
+            android:text="Yêu Thích"
+            android:id="@+id/btn_YeuThich"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_news"
+        android:layout_below="@+id/ln_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        ></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_HienThi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Không có gì để hiển thị"
+        android:textSize="23dp"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>
