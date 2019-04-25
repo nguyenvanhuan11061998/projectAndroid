@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:id="@+id/ln_blue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#3F51B5"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ln_blue"
+        android:layout_toRightOf="@+id/ln_blue"
+        android:background="#CDDC39"></LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/ln_blue"
+        android:layout_toLeftOf="@+id/ln_blue"
+        android:background="#00BCD4"></LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/ln_blue"
+        android:layout_toRightOf="@+id/ln_blue"
+        android:background="#F44336"></LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ln_blue"
+        android:layout_toLeftOf="@+id/ln_blue"
+        android:background="#B53F76"></LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="30sp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:lines="1"
+        android:ellipsize="end"
+        android:shadowColor="#000"
+        android:shadowRadius="3"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:autoLink="all"
+        />
+
+    <EditText
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập văn bản"
+        android:inputType="number"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Click me!"
+        android:background="#4324"
+        android:textColor="#556"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

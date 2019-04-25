@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="color" format="color"/>
+        <attr name="size" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ButtonOpacity">
+        <attr name="colorDown" format="color"/>
+        <attr name="colorMove" format="color"/>
+        <attr name="colorUp" format="color"/>
+    </declare-styleable>
+</resources>
